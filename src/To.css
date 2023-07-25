@@ -1,0 +1,26 @@
+ul{
+   list-style-type: none;
+}
+.lower{
+    display: grid;
+gap: 5px;
+    grid-template-columns: 30px 30px 1fr;
+}
+.first{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    
+}
+.second{
+    color: rgba(211, 74, 74, 0.71);
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    
+}
+li{
+    
+    font-size: 20px;
+ color: violet;
+}

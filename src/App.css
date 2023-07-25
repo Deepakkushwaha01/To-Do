@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  margin: 150px auto;
+  width: 350px;
+  height: 450px;
+  border: 1px solid black;
+  box-shadow: 0 12px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.heading{
+  margin: 20px 100px;
+}
+
+.grid{
+  margin: 30px 25px;
+  width: 280px;
+    display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 30px;
+}
+.btn{
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 1px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.input{
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid violet;
+}
+input:focus {
+  border: none;
+  border-bottom: violet;
+}
+.lower{
+  margin: 30px 25px;
+  width: 280px;
+}
